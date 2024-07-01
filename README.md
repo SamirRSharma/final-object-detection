@@ -1,9 +1,13 @@
 # Image Classification with Object Detection
 
-This project is a full-stack web application for uploading images and detecting objects within those images using a pre-trained object detection model. The application utilizes a combination of modern web technologies, including Next.js, TypeScript, and the `@xenova/transformers` library for object detection.
+##This project is a full-stack web application for uploading images and detecting objects within those images using a pre-trained object detection model. The application utilizes a combination of modern web technologies, including Next.js, TypeScript, and the `@xenova/transformers` library for object detection.
 
-# I made this project a while ago, I just updated the model and also implemented AWS Elastic Container Service to host it online for people to trust (not live right now, having trouble with my CLI thinking I am on my work AWS account not personal). Was inspiried by KoushikJit. 
+I made this project a while ago, I just updated the model and also implemented AWS Elastic Container Service to host it online for people to trust (not live right now, having trouble with my CLI thinking I am on my work AWS account not personal). Was inspiried by KoushikJit. 
 
+Here is an example of the project working (second example from KoushikJit while I get AWS set up)!
+
+![Terminal Photo](/terminal photo.png)
+![Jit Screenshot](/jit screenshot.png)
 
 ## Table of Contents
 - [Features](#features)
