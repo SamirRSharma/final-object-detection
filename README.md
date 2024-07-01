@@ -6,8 +6,8 @@ I made this project a while ago, I just updated the model and also implemented A
 
 Here is an example of the project working (second example from KoushikJit while I get AWS set up)!
 
-![Terminal Photo](/terminal photo.png)
-![Jit Screenshot](/jit screenshot.png)
+![Terminal Photo](/terminal_photo.png)
+![Jit Screenshot](/jit_screenshot.png)
 
 ## Table of Contents
 - [Features](#features)
