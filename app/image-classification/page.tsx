@@ -11,8 +11,8 @@ import React, { useState } from "react";
 type Props = {};
 
 const ImageClassificationPage = (props: Props) => {
-  const [url, seturl] = useState("");
-  const [label, setlabel] = useState("");
+  const [url, setUrl] = useState<string>("");
+  const [label, setLabel] = useState<{ [key: string]: number }>({});
   const [loading, setLoading] = useState<boolean>(false);
 
   return (
@@ -45,19 +45,32 @@ const ImageClassificationPage = (props: Props) => {
           ></Link>
         </>
       )}
-      {label && <p className="font-bold text-l">Detected: {label}</p>}
+      {Object.keys(label).length > 0 && (
+        <div className="font-bold text-l">
+          Detected:
+          <ul>
+            {Object.entries(label).map(([key, value]) => (
+              <li key={key}>{`${key}: ${value}`}</li>
+            ))}
+          </ul>
+        </div>
+      )}
     </main>
   );
 
-
-  async function uploadFiles(event: any) {
+  async function uploadFiles(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.currentTarget);
     setLoading(true);
-    const response = await axios.post("/api/detect-objects", formData);
-    setLoading(false);
-    seturl(response.data.url);
-    setlabel(response.data.label);
+    try {
+      const response = await axios.post("/api/detect-objects", formData);
+      setUrl(response.data.url);
+      setLabel(response.data.label);
+    } catch (error) {
+      console.error("Error uploading files:", error);
+    } finally {
+      setLoading(false);
+    }
   }
 };
 
