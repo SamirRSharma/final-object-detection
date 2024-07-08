@@ -2,12 +2,15 @@
 
 ##This project is a full-stack web application for uploading images and detecting objects within those images using a pre-trained object detection model. The application utilizes a combination of modern web technologies, including Next.js, TypeScript, and the `@xenova/transformers` library for object detection.
 
-I made this project a while ago, I just updated the model and also implemented AWS Elastic Container Service to host it online for people to trust (not live right now, having trouble with my CLI thinking I am on my work AWS account not personal). Was inspiried by KoushikJit. 
+I made this project a while ago, I just updated the model and also implemented AWS Elastic Container Service to host it online for people to view.
 
-Here is an example of the project working (second example from KoushikJit while I get AWS set up)!
+# Come check it out for yourself: [http://3.21.227.52:3000/](http://3.21.227.52:3000/)  [The Website](http://3.21.227.52:3000/) 
+
+Here is an example of the project working 
 
 ![Terminal Photo](/terminal_photo.png)
-![Jit Screenshot](/jit_screenshot.png)
+![Samir Screenshot 1](/samir_screenshot_1.png)
+![Samir Screenshot 2](/samir_screenshot_2.png)
 
 ## Table of Contents
 - [Features](#features)
