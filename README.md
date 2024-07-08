@@ -238,3 +238,5 @@ module.exports = nextConfig;
 
 ## License
 This project is licensed under the MIT License.
+
+Based on a project by KoushikJit but significantly editing the way the code worked and added error logging
