@@ -50,11 +50,11 @@ Here is an example of the project working
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/SamirRSharma/final-object-detection
     ```
 2. Navigate to the project directory:
     ```bash
-    cd your-repo
+    cd final-object-detection
     ```
 3. Install the dependencies:
     ```bash
