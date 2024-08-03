@@ -4,11 +4,9 @@
 
 I made this project a while ago, I just updated the model and also implemented AWS Elastic Container Service to host it online for people to view.
 
-~~ ## Come check it out for yourself: [Here](http://3.21.227.52:3000/) ~~
-( [http://3.21.227.52:3000/](http://3.21.227.52:3000/) )
+ ~~  Come check it out for yourself (http://3.21.227.52:3000   ~~
 
-
-Website is no longer working due to amazon charging me to much (the joys of internet bots)
+##Website is no longer working due to amazon charging me to much (the joys of internet bots), will get it back up eventally
 
 
 
